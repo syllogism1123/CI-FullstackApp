@@ -27,6 +27,12 @@ module.exports = {
     "plugins": [
         "react"
     ],
-    "rules": {
-    }
+    "rules": {},
+    globals: {
+
+        require: 'readonly',
+        module: 'readonly',
+        describe: 'readonly',
+        it: 'readonly',
+    },
 }
