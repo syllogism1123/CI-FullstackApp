@@ -28,8 +28,8 @@ module.exports = {
         "react"
     ],
     "rules": {},
-    globals: {
 
+    globals: {
         require: 'readonly',
         module: 'readonly',
         describe: 'readonly',
