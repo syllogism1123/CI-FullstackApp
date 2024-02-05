@@ -41,7 +41,7 @@ jobs:
           npm test
 
       # Run the linter.
-      - run:
+      - run: |
           cd backend
           npm run lint
 
